@@ -85,8 +85,8 @@ extra_css:
 
 # [Navigation]
 nav:
-  - CS:
+  - CS: 
     - CS\Language\cs-index.md
     - 编程语言：
-      - C:
-        - 程算期末Cheating Sheet:CS\Languange\C\final-exam-re.md
+      - C: 
+        - 程算期末Cheating Sheet: CS\Languange\C\final-exam-re.md
