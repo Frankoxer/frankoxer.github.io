@@ -1,2 +1,2 @@
 # Computer Science
-用来存放与CS相关的内容。
+此处用来存放CS相关内容。
