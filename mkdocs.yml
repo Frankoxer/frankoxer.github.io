@@ -6,6 +6,9 @@ site_url: https://frank-prince.github.io/
 ## [top]
 theme:
   name: material
+  font:
+    code: JetBrains Mono
+    text: Noto Sans Simplified Chinese
   palette:
     - scheme: default # 日间模式
       primary: indigo # 上方的
@@ -79,3 +82,11 @@ extra_javascript:
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+
+# [Navigation]
+nav:
+  - CS:
+    - CS\Language\cs-index.md
+    - 编程语言：
+      - C:
+        - 程算期末Cheating Sheet:CS\Languange\C\final-exam-re.md
