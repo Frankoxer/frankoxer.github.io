@@ -2,6 +2,14 @@
 site_name: 5V1A的个人主页 # 左上角标题
 site_url: https://frank-prince.github.io/
 
+#[Navigation]
+nav:
+  - CS: 
+    - CS\cs-index.md
+    - 编程语言：
+      - C: 
+        - 程算期末Cheating Sheet: CS\Languange\C\final-exam-re.md
+
 # [UI]
 ## [top]
 theme:
@@ -82,11 +90,3 @@ extra_javascript:
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
-
-#[Navigation]
-nav:
-  - CS: 
-    - CS\Language\cs-index.md
-    - 编程语言：
-      - C: 
-        - 程算期末Cheating Sheet: CS\Languange\C\final-exam-re.md
