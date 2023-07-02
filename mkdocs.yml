@@ -5,10 +5,10 @@ site_url: https://frank-prince.github.io/
 #[Navigation]
 nav:
   - CS: 
-    # - CS\index.md
     - 编程语言: 
-      - C/C++: 
-        - 程算期末Cheating Sheet: CS\Languange\C\final-exam-re.md
+  - Math: 
+    - 数学分析: 
+
 
 # [UI]
 ## [top]
