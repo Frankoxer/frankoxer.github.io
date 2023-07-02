@@ -6,9 +6,9 @@ site_url: https://frank-prince.github.io/
 ## [top]
 theme:
   name: material
-  # font:
-  #   code: JetBrains Mono
-  #   text: Noto Sans Simplified Chinese
+  font:
+    text: Noto Sans Simplified Chinese
+    code: JetBrains Mono
   palette:
     - scheme: default # 日间模式
       primary: indigo # 上方的
