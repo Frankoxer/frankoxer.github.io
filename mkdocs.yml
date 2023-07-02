@@ -5,7 +5,7 @@ site_url: https://frank-prince.github.io/
 #[Navigation]
 nav: 
   - CS:
-    - CS\index.md
+    - CS/index.md
 
 
 # [UI]
