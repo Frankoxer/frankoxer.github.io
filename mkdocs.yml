@@ -1,14 +1,14 @@
 # [Info]
-site_name: 5V1A的笔记本 # 左上角标题
+site_name: 5V1A的个人主页 # 左上角标题
 site_url: https://frank-prince.github.io/
 
 # [UI]
 ## [top]
 theme:
   name: material
-  font:
-    code: JetBrains Mono
-    text: Noto Sans Simplified Chinese
+  # font:
+  #   code: JetBrains Mono
+  #   text: Noto Sans Simplified Chinese
   palette:
     - scheme: default # 日间模式
       primary: indigo # 上方的
@@ -84,9 +84,9 @@ extra_css:
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
 
 # [Navigation]
-nav:
-  - CS: 
-    - CS\Language\cs-index.md
-    - 编程语言：
-      - C: 
-        - 程算期末Cheating Sheet: CS\Languange\C\final-exam-re.md
+# nav:
+#   - CS: 
+#     - CS\Language\cs-index.md
+#     - 编程语言：
+#       - C: 
+#         - 程算期末Cheating Sheet: CS\Languange\C\final-exam-re.md
