@@ -3,11 +3,9 @@ site_name: 5V1A的个人主页 # 左上角标题
 site_url: https://frank-prince.github.io/
 
 #[Navigation]
-nav:
-  - CS: 
-    - 编程语言: 
-  - Math: 
-    - 数学分析: 
+nav: 
+  - CS:
+    - CS\index.md
 
 
 # [UI]
