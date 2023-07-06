@@ -61,7 +61,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/frank-prince
       name: GitHub | frank-prince
-    alternate:
+  alternate:
     - name: Chinese
       link: /zh/ 
       lang: zh
