@@ -1,6 +1,7 @@
 # [Info]
 site_name: 5V1A的个人主页
 site_url: https://frank-prince.github.io/
+site_description: 5V1A的个人主页
 
 #[Navigation]
 nav: 
@@ -12,24 +13,24 @@ nav:
   - About: 
     - ABOUT/index.md
 
-
 # [UI]
 ## [top]
 theme:
   name: material
+  custom_dir: overrides
   font:
-    text: Roboto
+    text: Inter
     code: JetBrains Mono
   palette:
     - scheme: default # 日间模式
-      primary: indigo # 上方的
-      accent: orange # 链接等可交互元件的高亮色
+      primary: white # 上方的
+      accent: brown # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
-      primary: indigo
-      accent: orange
+      primary: black
+      accent: grey
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -42,9 +43,9 @@ theme:
     - search.highlight # 搜索出的文章关键词加入高亮
     - content.code.copy # 可以通过按钮复制代码
     - content.action.edit # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
-  language: zh # 一些提示性的文字会变成中文
+  # language: zh # 一些提示性的文字会变成中文
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/git-alt
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/frank-prince/frank-prince.github.io # 右上角点击跳转的链接
@@ -60,6 +61,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/frank-prince
       name: GitHub | frank-prince
+    alternate:
+    - name: Chinese
+      link: /zh/ 
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
 
 # [Extensions]
 plugins:
