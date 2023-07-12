@@ -10,6 +10,11 @@ nav:
     - 编程语言: 
       - C/C++: 
         - 程算期末Cheating Sheet: CS/Language/C/final-exam-re.md
+  - System: 
+    - System/index.md 
+    - 计算机系统概论: 
+      - System/ICS/index.md 
+      - 1-Welcome Aboard: System/ICS/1-welcome.md 
   - About: 
     - ABOUT/index.md
 
@@ -18,7 +23,7 @@ nav:
 theme:
   name: material
   font:
-    text: Inter
+    text: JetBrains Mono
     code: JetBrains Mono
   palette:
     - scheme: default # 日间模式
@@ -60,13 +65,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/frank-prince
       name: GitHub | frank-prince
-  alternate:
-    - name: Chinese
-      link: /zh/ 
-      lang: zh
-    - name: English
-      link: /en/
-      lang: en
 
 # [Extensions]
 plugins:
