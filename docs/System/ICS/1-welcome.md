@@ -20,7 +20,7 @@
 - MEM: Storage and Memory
 - I/O: Input & Output Devices
 
-## 1.3 Two Vert Important Ideas
+## 1.3 Two Very Important Ideas
 
 1. **All computers are capable of computing exactly the same things if they're given enough time and enough memory.**
 
