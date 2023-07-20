@@ -23,7 +23,7 @@ nav:
 theme:
   name: material
   font:
-    text: LXGW WenKai Screen
+    text: Mukta
     code: JetBrains Mono
   palette:
     - scheme: default # 日间模式
@@ -31,13 +31,13 @@ theme:
       accent: brown # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
-        name: 切换至夜间模式 # 鼠标悬浮提示
+        name: Dark Mode # 鼠标悬浮提示
     - scheme: slate # 夜间模式
       primary: black
       accent: grey
       toggle:
         icon: material/weather-sunny
-        name: 切换至日间模式
+        name: Light Mode 
   features:
     - navigation.tabs # 使用Tab来进行分类
     - navigation.top # 返回顶部的按钮 在上滑时出现
