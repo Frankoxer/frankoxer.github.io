@@ -10,6 +10,15 @@ nav:
     - 编程语言: 
       - C/C++: 
         - 程算期末Cheating Sheet: CS/Language/C/final-exam-re.md
+    - 数据结构与算法: 
+      - 数据结构基础:
+        - CS/ds/index.md
+        - 算法分析基础: CS/ds/ch1.md
+        - 线性数据结构: CS/ds/ch2.md
+        - 树: CS/ds/ch3.md
+        - 图: CS/ds/ch4.md
+        - 排序: CS/ds/ch5.md
+        - 散列: CS/ds/ch6.md
   - System: 
     - System/index.md 
     - 计算机系统概论: 
