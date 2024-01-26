@@ -1,6 +1,6 @@
 # [Info]
 site_name: Frankoxer的笔记本
-site_url: https://frank-prince.github.io/
+site_url: https://frankoxer.github.io/
 site_description: Frankoxer的笔记本
 
 #[Navigation]
@@ -61,10 +61,10 @@ theme:
     repo: fontawesome/brands/git-alt
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/frank-prince/frank-prince.github.io # 右上角点击跳转的链接
-repo_name: frank-prince.github.io # 右上角的名字
+repo_url: https://github.com/Frankoxer/frankoxer.github.io # 右上角点击跳转的链接
+repo_name: frankoxer.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: 5V1A # 左下角的版权声明
+copyright: Frankoxer # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -72,8 +72,8 @@ extra:
       link: https://space.bilibili.com/85414704
       name: Bilibili | 五伏亿安 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/frank-prince
-      name: GitHub | frank-prince
+      link: https://github.com/frankoxer
+      name: GitHub | frankoxer
 
 # [Extensions]
 plugins:
