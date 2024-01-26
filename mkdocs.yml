@@ -22,7 +22,7 @@ nav:
   - System: 
     - System/index.md 
     - 计算机系统概论: 
-      - 摘要与简介: System/ICS/0-abstract.md
+      - System/ICS/index.md
       - 1-Welcome Aboard: System/ICS/1-welcome.md 
   - About: 
     - ABOUT/index.md
