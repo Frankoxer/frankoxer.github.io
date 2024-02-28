@@ -10,7 +10,7 @@
 
 1. Input：有/无输入
 2. Output：至少有一个输出
-3. Definiteness：每个语句含义清晰，无歧义
+3. Definiteness：每个语句含义清晰，并无歧义
 4. Finiteness：在有限步骤之后终止
 5. Effectiveness：能够实现
 
