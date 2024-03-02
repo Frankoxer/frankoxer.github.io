@@ -1,11 +1,10 @@
----
-comments: true
----
 # Note: FDS
 
-这里是笔者修读浙江大学2023-2024秋冬学期《数据结构基础》（Fundamental Data Structure）课程的**复习**笔记。
+这里是笔者修读浙江大学 2023-2024 秋冬学期《数据结构基础》（Fundamental Data Structure）课程的**复习**笔记。
 
-课程内容为1~6章，分别为：
+教师：何钦铭
+
+课程内容分为 1~6 章，分别为：
 
 1. 算法分析基础
 2. 线性数据结构：线性表、栈、队列
@@ -14,7 +13,7 @@ comments: true
 5. 排序算法
 6. 散列与哈希
 
-Edited by 5V1A on 2024.1.14.
+First edited by Frankoxer on 2024.1.14.
 
 Finished on 2024.1.16.
 

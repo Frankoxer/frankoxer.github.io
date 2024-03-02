@@ -3,30 +3,7 @@ site_name: Frankoxer 的笔记本
 site_url: https://frankoxer.github.io/
 site_description: Frankoxer 的笔记本
 
-#[Navigation]
-nav: 
-  - index.md
-  - CS: 
-    - CS/index.md
-    - 编程语言: 
-      - C/C++: 
-        - 程算期末Cheating Sheet: CS/Language/C/final-exam-re.md
-    - 数据结构与算法: 
-      - 数据结构基础:
-        - CS/ds/index.md
-        - 算法分析基础: CS/ds/ch1.md
-        - 线性数据结构: CS/ds/ch2.md
-        - 树: CS/ds/ch3.md
-        - 图: CS/ds/ch4.md
-        - 排序: CS/ds/ch5.md
-        - 散列: CS/ds/ch6.md
-  - System: 
-    - System/index.md 
-    - 计算机系统概论: 
-      - System/ICS/index.md
-      - 1-Welcome Aboard: System/ICS/1-welcome.md 
-  - About: 
-    - ABOUT/index.md
+############################################################################################
 
 # [UI]
 ## [top]
@@ -35,7 +12,7 @@ theme:
   custom_dir: overrides
   font:
     text: Mukta
-    code: JetBrains Mono
+    code: Fira Code
   palette:
     - scheme: default # 日间模式
       primary: white # 上方的
@@ -62,11 +39,14 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
+
 ## [top-right corner]
 repo_url: https://github.com/Frankoxer/frankoxer.github.io # 右上角点击跳转的链接
 repo_name: frankoxer.github.io # 右上角的名字
+
 ## [bottom-left corner]
 copyright: Copyright © 2023-2024 Frankoxer # 左下角的版权声明
+
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -77,6 +57,8 @@ extra:
       link: https://github.com/frankoxer
       name: GitHub | Frankoxer
 
+############################################################################################
+
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
@@ -85,6 +67,7 @@ plugins:
         - en
         - ja
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
       generic: true
@@ -96,8 +79,29 @@ markdown_extensions:
       auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
-  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
+  - admonition
   - pymdownx.details # admonition需要
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - tables
+  - def_list
+  - md_in_html
+  - sane_lists
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols  #智能符号
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_javascript:
   # latex支持
@@ -109,3 +113,35 @@ extra_javascript:
 extra_css:
   #- mkdocs/css/no-footer.css # 不使用底部的翻页
   #- mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+
+############################################################################################
+
+#[Navigation]
+nav: 
+  - CS: 
+    - CS/index.md
+    - 编程语言: 
+      - C/C++: 
+        - 程序设计与算法基础: CS/Language/C/final-exam-re.md
+    - 数据结构与算法: 
+      - 数据结构基础:
+        - CS/ds/index.md
+        - 算法分析基础: CS/ds/ch1.md
+        - 线性数据结构: CS/ds/ch2.md
+        - 树: CS/ds/ch3.md
+        - 图: CS/ds/ch4.md
+        - 排序: CS/ds/ch5.md
+        - 散列: CS/ds/ch6.md
+      - 高级数据结构与算法分析:
+        - CS/ads/index.md
+        - AVL/Splay/摊还分析: CS/ads/ch1.md
+  - System: 
+    - System/index.md 
+    - 计算机系统概论: 
+      - System/ICS/index.md
+      - 1-Welcome Aboard: System/ICS/1-welcome.md 
+  - Others:
+    - 人工智能引论:
+      - other/ai_funda/index.md
+  - About: 
+    - ABOUT/index.md
