@@ -1,10 +1,11 @@
 # [Info]
-site_name: Frankoxer的笔记本
+site_name: Frankoxer 的笔记本
 site_url: https://frankoxer.github.io/
-site_description: Frankoxer的笔记本
+site_description: Frankoxer 的笔记本
 
 #[Navigation]
 nav: 
+  - index.md
   - CS: 
     - CS/index.md
     - 编程语言: 
@@ -31,6 +32,7 @@ nav:
 ## [top]
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Mukta
     code: JetBrains Mono
@@ -64,7 +66,7 @@ edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://github.com/Frankoxer/frankoxer.github.io # 右上角点击跳转的链接
 repo_name: frankoxer.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: Frankoxer # 左下角的版权声明
+copyright: Copyright © 2023-2024 Frankoxer # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -73,7 +75,7 @@ extra:
       name: Bilibili | 五伏亿安 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
       link: https://github.com/frankoxer
-      name: GitHub | frankoxer
+      name: GitHub | Frankoxer
 
 # [Extensions]
 plugins:
@@ -90,8 +92,8 @@ markdown_extensions:
   - toc:
       permalink: true # 固定标题位置为当前位置
   - pymdownx.highlight: # 代码块高亮
-      # linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
   - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
@@ -105,5 +107,5 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
 extra_css:
-  - mkdocs/css/no-footer.css # 不使用底部的翻页
-  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+  #- mkdocs/css/no-footer.css # 不使用底部的翻页
+  #- mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols

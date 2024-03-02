@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Note: FDS
 
 这里是笔者修读浙江大学2023-2024秋冬学期《数据结构基础》（Fundamental Data Structure）课程的**复习**笔记。
