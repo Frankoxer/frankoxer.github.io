@@ -36,7 +36,7 @@ Time & Space complexities--时间/空间复杂度，**不依赖于设备和编�
 
 包含$O, \Omega, \Theta, o$等记号。离散数学中已经涉及过。
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240113165513057.png" alt="image-20240113165513057" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240113165513057.png" alt="image-20240113165513057" style="zoom: 67%;" />
 
 ### 1.2.3 Basic Rules
 

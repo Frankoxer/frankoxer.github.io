@@ -30,7 +30,7 @@ For a graph with $n$ vertices, use `adi_mat[n][n]` to store the relations betwee
 
 $N$ 个链表，每个链表将其连接的点（如果是有向图为出点）串起来。
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240115224927535.png" alt="image-20240115224927535" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240115224927535.png" alt="image-20240115224927535" style="zoom:67%;" />
 
 并且对于有向图，需要找到每个点的入度。有以下解决方案：
 
@@ -40,7 +40,7 @@ $N$ 个链表，每个链表将其连接的点（如果是有向图为出点）�
 
 - Multilists: 便于标记边。
 
-  <img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240115225808376.png" alt="image-20240115225808376" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240115225808376.png" alt="image-20240115225808376" style="zoom:67%;" />
 
 ## 4.3 Topological Sort
 
@@ -186,7 +186,7 @@ void weighted_negative(Table T)
 
 ### 4.4.2 All-Pairs Shortest Path Problem
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240116103844119.png" alt="image-20240116103844119" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240116103844119.png" alt="image-20240116103844119" style="zoom:67%;" />
 
 ## 4.5 Network Flow Problems
 
@@ -272,7 +272,7 @@ void DFS(Vertex V)
 
 ### 4.7.1 Components
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240116115446685.png" alt="image-20240116115446685" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240116115446685.png" alt="image-20240116115446685" style="zoom:67%;" />
 
 ### 4.7.2 Biconnectivity
 

@@ -34,7 +34,7 @@
 
 也可以使用双指针循环链表（带有头节点）：
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240113174539500.png" alt="image-20240113174539500" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240113174539500.png" alt="image-20240113174539500" style="zoom:67%;" />
 
 两个应用：
 
@@ -50,7 +50,7 @@
 
 - 表示矩阵（尤其稀疏矩阵），使用十字链表：
 
-  <img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240113180002603.png" alt="image-20240113180002603" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240113180002603.png" alt="image-20240113180002603" style="zoom:67%;" />
 
   数据域：行坐标Row、列坐标Col、数值Value
 
@@ -58,7 +58,7 @@
 
 静态链表：使用一个额外的Next数组来模拟存储本节点的`next`.
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240113181911864.png" alt="image-20240113181911864" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240113181911864.png" alt="image-20240113181911864" style="zoom: 67%;" />
 
 ## 2.3 The Stack ADT
 

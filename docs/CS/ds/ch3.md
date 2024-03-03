@@ -18,13 +18,13 @@
 
 - List Representation:
 
-  <img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240115193746404.png" alt="image-20240115193746404" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240115193746404.png" alt="image-20240115193746404" style="zoom:67%;" />
 
   缺点是需要根据具体情况来确定每一个node的大小。
 
 - FirstChild-NextSibling Representation:
 
-  <img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240115194010517.png" alt="image-20240115194010517" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240115194010517.png" alt="image-20240115194010517" style="zoom:67%;" />
 
   每个结点有两个指针域，分别为**大儿子**和**下一个兄弟**。这种方式能把任何树结构化为二叉树，且对于同一棵树能有不同的表示方式（children的顺序可以改变）。
 
@@ -292,7 +292,7 @@ If it is not empty, it satisfies the following properties:
 
 ### 3.5.2 Implementations
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240115212136885.png" alt="image-20240115212136885" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240115212136885.png" alt="image-20240115212136885" style="zoom:67%;" />
 
 实际上使用数组来实现。（完全二叉树）
 
@@ -365,7 +365,7 @@ Basic operations:
 
 All nodes have $d$ children.
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240115221044342.png" alt="image-20240115221044342" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240115221044342.png" alt="image-20240115221044342" style="zoom:67%;" />
 
 ## 3.6 The Disjoint Set ADT
 

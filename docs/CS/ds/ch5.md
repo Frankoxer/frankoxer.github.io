@@ -132,7 +132,7 @@ $T(N)=T(N+NlogN)=T(NlogN)$
 
 可以改造成迭代版本，每相邻两段做merge操作。
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240116133045526.png" alt="image-20240116133045526" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240116133045526.png" alt="image-20240116133045526" style="zoom:67%;" />
 
 ## 5.7 Quick Sort
 
@@ -230,6 +230,6 @@ Average case: $T(N)=O(NlogN)$
 
 例如LSD排序：先排个位：0~9；再放十位、百位等等，直到都排好。
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240116152325280.png" alt="image-20240116152325280" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240116152325280.png" alt="image-20240116152325280" style="zoom:67%;" />
 
 MSD同理，从最高位开始。

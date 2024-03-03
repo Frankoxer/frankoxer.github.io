@@ -18,7 +18,7 @@
 
 **Hash Tables**:
 
-<img src="https://5v1a-typora.oss-cn-hangzhou.aliyuncs.com/image-20240116160329937.png" alt="image-20240116160329937" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240116160329937.png" alt="image-20240116160329937" style="zoom:67%;" />
 
 注意上图中**identifier density**和**loading density**的定义！
 
