@@ -145,7 +145,7 @@ Splay 树实现起来比 AVL 树要简单。
 
 - **Idea**: When an operation’s *amortized cost* $\hat{c}_{i}$ exceeds its *actual cost* $c_{i}$ , we assign the difference to specific objects in the data structure as ***credit***. Credit can help *pay* for later operations whose amortized cost is less than their actual cost.
 
-对于所有的 $n$ 次操作，必须保证 $\sum_{i=1}^{n}\hat{c}_i\ge\sum_{i=1}^{n}c_i$。
+对于所有的 $n$ 次操作，必须保证 $\sum\limits_{i=1}^{n}\hat{c}_i\ge\sum\limits_{i=1}^{n}c_i$。
 
 !!! note "举个栗子"
 
@@ -159,7 +159,7 @@ Splay 树实现起来比 AVL 树要简单。
 
 势能法。
 
-- **Idea**: $\hat{c}_i-c_i=Credit_i=\Phi(D_i)-\Phi(D_{i-1})$, where $\Phi(x)$ is called the **Potential function**. Sum them up and we get $\sum_{i=1}^n\hat{c}_i=(\sum_{i=1}^nc_i)+\Phi(D_n)-\Phi(D_0)$.
+- **Idea**: $\hat{c}_i-c_i=Credit_i=\Phi(D_i)-\Phi(D_{i-1})$, where $\Phi(x)$ is called the **Potential function**. Sum them up and we get $\sum\limits_{i=1}^n\hat{c}_i=(\sum\limits_{i=1}^nc_i)+\Phi(D_n)-\Phi(D_0)$.
 
 如果能保证 $\Phi(D_n)-\Phi(D_0) \ge 0$，就能确保摊还总开销是实际开销的上界。
 
@@ -173,4 +173,8 @@ Splay 树实现起来比 AVL 树要简单。
 
 用势能法分析 Splay 树：
 
+这里的势能函数取 $\Phi(D_{i})=\sum\limits_{i=1}^nlogS(i)$，其中 $S(i)$ 是 $i$ 结点的子孙数量。
+
 <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240303152729146.png" alt="image-20240303152729146" style="zoom:67%;" />
+
+如果操作从空树开始，摊还分析中能够让 $M$ 较大。如果非空树开始，需要有 $M$ 充分大的假设，这样才能保证摊还时间上界为 $O(MlogN)$。
