@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Chap5. Sorting
 
 本章节介绍排序算法。

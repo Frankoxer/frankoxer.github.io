@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Chap1. Algorithm Analysis
 
 本章介绍算法分析的定义以及一般方法。

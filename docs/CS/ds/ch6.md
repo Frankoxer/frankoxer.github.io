@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Chap6. Hashing
 
 本章节介绍基本的散列表概念以及Hash值算法。

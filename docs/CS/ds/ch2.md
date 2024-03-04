@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Chap2. Linear ADT
 
 本章节开始介绍线性数据结构，包含线性表、栈以及队列。

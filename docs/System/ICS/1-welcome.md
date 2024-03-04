@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Chapter 1 Welcome Aboard
 
 **There is no magic to computing!**

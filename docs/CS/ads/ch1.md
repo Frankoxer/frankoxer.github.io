@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Lecture 1: AVL Trees, Splay Trees, and Amortized Analysis
 
 AVL 树、伸展树和摊还分析。
