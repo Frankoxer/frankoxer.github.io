@@ -92,7 +92,8 @@ AVL 树的一种实现方法就是**时刻关注 BF 值**，对树进行调整�
 
 - **Target**: Any $M$ consecutive tree operations starting from an empty tree take at most $O(MlogN)$ time. That means the ***amortized*** time(摊还时间) is $O(logN)$.
 
-!!! info AVL 树就是一种伸展树。 
+!!! info "提示"
+    AVL 树就是一种伸展树。 
 
 !!! warning "注意"
 
