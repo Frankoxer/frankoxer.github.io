@@ -26,15 +26,15 @@ A **red-black tree** is a binary search tree that satisfies the following proper
 4. If a node is **red**, then both its children are **black**.
 5. For each node, all simple paths from the node to decendant leaves contain the **same number of black nodes**.
 
-<img src="C:\Users\frank\AppData\Roaming\Typora\typora-user-images\image-20240309231739753.png" alt="image-20240309231739753" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240309231739753.png" alt="image-20240309231739753" style="zoom:50%;" />
 
 !!! note "Black-Height 的定义"
 
- The **black-height** of any node x, denoted by bh(x), is the number of **black** nodes on any simple path from x **(x not included)** down to a leaf. bh(Tree)=bh(root).
+    The **black-height** of any node x, denoted by bh(x), is the number of **black** nodes on any simple path from x **(x not included)** down to a leaf. bh(Tree)=bh(root).
 
 !!! note "Lemma"
 
-A red-black tree with $N$ internal nodes has height at most $2ln(N+1)$.
+    A red-black tree with $N$ internal nodes has height at most $2ln(N+1)$.
 
 ## 2 Red-Black Trees: Operations
 
@@ -42,7 +42,7 @@ A red-black tree with $N$ internal nodes has height at most $2ln(N+1)$.
 
 - **Idea**: Insert & color **red**.
 
-![image-20240310100648918](C:\Users\frank\AppData\Roaming\Typora\typora-user-images\image-20240310100648918.png)
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240310100648918.png" alt="image-20240310100648918" style="zoom:50%;" />
 
 ### 2.2 Deletion
 
@@ -50,9 +50,9 @@ A red-black tree with $N$ internal nodes has height at most $2ln(N+1)$.
 
 唯一需要重新平衡的时候就是删除一个黑色叶节点。由于需要保持平衡，我们需要在这条路径上加一个黑色结点。
 
-![image-20240310102036096](C:\Users\frank\AppData\Roaming\Typora\typora-user-images\image-20240310102036096.png)
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240310102036096.png" alt="image-20240310102036096" style="zoom:50%;" />
 
-![image-20240310102049395](C:\Users\frank\AppData\Roaming\Typora\typora-user-images\image-20240310102049395.png)
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240310102049395.png" alt="image-20240310102049395" style="zoom:50%;" />
 
 ## 3 Comparison with AVL Trees
 
