@@ -141,6 +141,7 @@ nav:
         - CS/ads/index.md
         - AVL/Splay/摊还分析: CS/ads/lec1.md
         - 红黑树/B+ 树: CS/ads/lec2.md
+        - 倒排索引: CS/ads/lec3.md
   - System: 
     - System/index.md 
     - 计算机系统概论: 
