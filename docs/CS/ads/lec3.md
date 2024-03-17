@@ -14,7 +14,8 @@ The real **key technique** used by search engines.
     * **Solution 1**: 对每个页面进行 "Computer Science" 字符串的扫描？ ***Wait till your next life!!!***
     * **Solution 2**: 使用 Term-Document Incidence Matrix
 
-    <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240316143541.png" alt="20240316143541" style="zoom: 50%;" />
+    <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240316143541.png" alt="20240316143541" style="zoom: 40%;" />
+
     会出现的问题：矩阵可能会变得非常稀疏（有很多 0）。
 
 如何解决？使用倒排索引。
@@ -76,7 +77,7 @@ Token Analyzer, Stop Filter, Vocabulary Scanner, Vocabulary Insertor, Memory man
 
 没有足够的内存？memory->hard disk.
 
-<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240317102708817.png" alt="image-20240317102708817" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240317102708817.png" alt="image-20240317102708817" style="zoom: 50%;" />
 
 ## 3 Topics
 
@@ -90,7 +91,7 @@ Each node contains index of a subset of collection.
 
 ### 3.2 Dynamic Indexing
 
-<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240317110445081.png" alt="image-20240317110445081" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240317110445081.png" alt="image-20240317110445081" style="zoom:45%;" />
 
 如图所示，一般采用一个主索引以及一个附加索引，新文档加入先归到附加索引中，需要访问的时候在两个索引中一起搜索关键词。需要注意两个问题：何时进行归并（re-index），以及如何删除文档。
 
@@ -125,25 +126,23 @@ Each node contains index of a subset of collection.
 如何衡量搜索引擎的好坏？
 
 * How fast does it index?
-
-  Number of documents / hour
+    - Number of documents / hour
 
 * How fast does it search?
-
-  Latency as a function of index size
+    -Latency as a function of index size
 
 * Expressiveness of query language
 
-  * Ability to express complex information needs
-  * Speed on complex queries
+    - Ability to express complex information needs
+    - Speed on complex queries
 
 * **User happiness?**
 
-  * **Data Retrieval Performance Evaluation (after establishing correctness)**，侧重能搜索到的数据范围和速度
-    * Response time
-    * Index space
-  * **Information Retrieval Performance Evaluation**，侧重相关性
-    * How *relevant* is the answer set?
+    - **Data Retrieval Performance Evaluation (after establishing correctness)**，侧重能搜索到的数据范围和速度
+        * Response time
+        * Index space
+    - **Information Retrieval Performance Evaluation**，侧重相关性
+        * How *relevant* is the answer set?
 
 ### 4.2 Measure the Relevancy
 
@@ -153,7 +152,7 @@ Each node contains index of a subset of collection.
 2. A benchmark suite of **queries**
 3. A binary **assessment** of either <u>Relevant</u> or <u>Irrelevant</u> for each query-doc pair.
 
-<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240317123621706.png" alt="image-20240317123621706" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240317123621706.png" alt="image-20240317123621706" style="zoom: 55%;" />
 
 两个重要概念: **Precision** 和 **Recall**.
 

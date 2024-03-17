@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# Lecture 2: Red Black Trees and B+ Trees
+# Lecture 2: Red-Black Trees and B+ Trees
 
 红黑树和 B+ 树。
 
