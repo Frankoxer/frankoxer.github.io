@@ -28,7 +28,7 @@ A **red-black tree** is a binary search tree that satisfies the following proper
 
 <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/image-20240309231739753.png" alt="image-20240309231739753" style="zoom:50%;" />
 
-!!! note "Black-Height 的定义"
+!!! info "Black-Height 的定义"
 
     The **black-height** of any node x, denoted by bh(x), is the number of **black** nodes on any simple path from x **(x not included)** down to a leaf. bh(Tree)=bh(root).
 
