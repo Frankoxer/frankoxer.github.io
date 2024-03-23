@@ -4,6 +4,8 @@ comments: true
 
 # Lecture 3: Inverted File Index
 
+倒排索引。
+
 ## 1 Structure
 
 The real **key technique** used by search engines.
