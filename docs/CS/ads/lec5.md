@@ -6,7 +6,7 @@ comments: true
 
 二项堆。
 
-# 1 Definition
+## 1 Definition
 A binomial queue is not a heap-ordered tree, but rather a collection of heap-ordered trees, known as a forest. Each heap-ordered tree is a binomial tree.
 
 二项堆是一群二叉堆构成的森林。每一个二叉树有固定的形状。
@@ -22,7 +22,7 @@ A binomial queue is not a heap-ordered tree, but rather a collection of heap-ord
 
 <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240330194946.png" alt="image-20240330194946" style="zoom:67%;" />
 
-# 2 Operation
+## 2 Operation
 
 * **FindMin**: 扫描所有的树根。$T_p=O(logN)$.
 * **Merge**: 和二进制加法类似。
@@ -39,7 +39,7 @@ A binomial queue is not a heap-ordered tree, but rather a collection of heap-ord
 * **DeleteMin**: 见下图。
   ![20240330220835](https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240330220835.png)
 
-# 3 Implementations
+## 3 Implementations
 
 实现方式是构建二叉树构成的数组。
 
@@ -131,7 +131,7 @@ ElementType  DeleteMin( BinQueue H )
 }
 ```
 
-# 4 Analysis
+## 4 Analysis
 
 A binomial queue of $N$ elements can be built by $N$ successive insertions in $O(N)$.
 
