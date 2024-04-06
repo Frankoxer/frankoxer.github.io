@@ -144,6 +144,7 @@ nav:
         - 倒排索引: CS/ads/lec3.md
         - 左式堆与斜堆: CS/ads/lec4.md
         - 二项堆: CS/ads/lec5.md
+        - 回溯: CS/ads/lec6.md
   - System: 
     - System/index.md 
     - 计算机系统概论: 
