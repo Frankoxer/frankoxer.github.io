@@ -77,6 +77,7 @@ bool backtracking(int i)
    计算机决策的时候让这个值最大，人决策的时候让这个值最小。
    
 2. **Alpha-beta pruning**
+   
    <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240406172338.png" alt="20240406172338" style="zoom:33%;" />
 
    <img src="https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240406172423.png" alt="20240406172423" style="zoom:33%;" />

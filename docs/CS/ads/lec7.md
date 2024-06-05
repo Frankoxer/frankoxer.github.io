@@ -12,13 +12,14 @@ $$
 
 的三种时间复杂度分析方法。
 
-## 1. Substitution Method
+## 1 Substitution Method
 
 先猜后证。
 
 这里举两个例子。
 
 ??? note "正确的方法"
+
     例如我们有递推式
 
     $$
@@ -49,6 +50,7 @@ $$
     从而答案正确。
 
 ??? note "错误的示范"
+
     例如我们还是用这个递推式
 
     $$
@@ -81,7 +83,7 @@ $$
     **错误！** 在运用这种方法的时候需要证明 **"Exact Form"**，猜测的是 $T(N)\le cN$，证明到最后的常数就应该是 $c$，而没有后面的 $+N$。
 
 
-## 2. Recursion-tree Method
+## 2 Recursion-tree Method
 
 可以单独使用，也可以和先猜后证一起使用。
 
@@ -89,7 +91,7 @@ $$
 
 ![20240422114459](https://cdn.jsdelivr.net/gh/Frankoxer/image-host/pic/20240422114459.png)
 
-## 3. Master Theorem
+## 3 Master Theorem
 
 少废话。直接上图
 
