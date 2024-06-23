@@ -151,6 +151,7 @@ nav:
         - NP: CS/ads/lec10.md
         - 近似算法: CS/ads/lec11.md
         - 局部搜索: CS/ads/lec12.md
+        - 随机算法: CS/ads/lec13.md
     - 数据库系统:
       - CS/db/index.md
       - 数据库系统介绍: CS/db/lec1.md
