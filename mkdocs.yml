@@ -1,7 +1,7 @@
 # [Info]
-site_name: Frankoxer 的笔记本
+site_name: Frankoxer 的小站
 site_url: https://frankoxer.github.io/
-site_description: Frankoxer 的笔记本
+site_description: Frankoxer 的个人网站
 
 ############################################################################################
 
@@ -33,12 +33,12 @@ theme:
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
     #- navigation.footer # 底部的翻页
-    - navigation.expand # 打开Tab时左侧目录全部展开
+    # - navigation.expand # 打开Tab时左侧目录全部展开
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
     - content.code.copy # 可以通过按钮复制代码
     - content.action.edit # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
-  # language: zh # 一些提示性的文字会变成中文
+  language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/git-alt
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
@@ -110,7 +110,7 @@ extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
   # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docs/mkdocs/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docs/mkdocs/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
-  - mkdocs/javascripts/mathjax.js
+  # - mkdocs/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
 extra_css:
@@ -121,52 +121,46 @@ extra_css:
 
 #[Navigation]
 nav: 
-  - Home:
-    - index.md
-  - CS: 
-    - CS/index.md
-    - 编程语言: 
-      - C/C++: 
-        - 程序设计与算法基础: CS/Language/C/final-exam-re.md
-    - 数据结构与算法: 
+  - 主页: index.md
+  - 学习: 
+    - study/index.md
+    - CS:
+      - 程序设计与算法基础: study/cs/fpa/final-exam-re.md
       - 数据结构基础:
-        - CS/ds/index.md
-        - 算法分析基础: CS/ds/ch1.md
-        - 线性数据结构: CS/ds/ch2.md
-        - 树: CS/ds/ch3.md
-        - 图: CS/ds/ch4.md
-        - 排序: CS/ds/ch5.md
-        - 散列: CS/ds/ch6.md
+        - study/cs/ds/index.md
+        - 算法分析基础: study/cs/ds/ch1.md
+        - 线性数据结构: study/cs/ds/ch2.md
+        - 树: study/cs/ds/ch3.md
+        - 图: study/cs/ds/ch4.md
+        - 排序: study/cs/ds/ch5.md
+        - 散列: study/cs/ds/ch6.md
       - 高级数据结构与算法分析:
-        - CS/ads/index.md
-        - AVL/Splay/摊还分析: CS/ads/lec1.md
-        - 红黑树/B+ 树: CS/ads/lec2.md
-        - 倒排索引: CS/ads/lec3.md
-        - 左式堆与斜堆: CS/ads/lec4.md
-        - 二项堆: CS/ads/lec5.md
-        - 回溯: CS/ads/lec6.md
-        - 分治法: CS/ads/lec7.md
-        - 动态规划: CS/ads/lec8.md
-        - 贪心算法: CS/ads/lec9.md
-        - NP: CS/ads/lec10.md
-        - 近似算法: CS/ads/lec11.md
-        - 局部搜索: CS/ads/lec12.md
-        - 随机算法: CS/ads/lec13.md
-    - 数据库系统:
-      - CS/db/index.md
-      - 数据库系统介绍: CS/db/lec1.md
-      - 关系代数和关系模型: CS/db/lec2.md
-      - SQL: CS/db/lec3.md
-  - System: 
-    - System/index.md 
-    - 计算机系统概论: 
-      - System/ICS/index.md
-      - 1-Welcome Aboard: System/ICS/1-welcome.md 
-    - 计算机组成与设计:
-      - System/CO/index.md
-      - 流水线: System/CO/pipelining.md
-  - Others:
-    - 人工智能引论:
-      - other/ai_funda/index.md
-  - About: 
-    - ABOUT/index.md
+        - study/cs/ads/index.md
+        - AVL/Splay/摊还分析: study/cs/ads/lec1.md
+        - 红黑树/B+ 树: study/cs/ads/lec2.md
+        - 倒排索引: study/cs/ads/lec3.md
+        - 左式堆与斜堆: study/cs/ads/lec4.md
+        - 二项堆: study/cs/ads/lec5.md
+        - 回溯: study/cs/ads/lec6.md
+        - 分治法: study/cs/ads/lec7.md
+        - 动态规划: study/cs/ads/lec8.md
+        - 贪心算法: study/cs/ads/lec9.md
+        - NP: study/cs/ads/lec10.md
+        - 近似算法: study/cs/ads/lec11.md
+        - 局部搜索: study/cs/ads/lec12.md
+        - 随机算法: study/cs/ads/lec13.md
+      - 数据库系统:
+        - study/cs/db/index.md
+        - 数据库系统介绍: study/cs/db/lec1.md
+        - 关系代数和关系模型: study/cs/db/lec2.md
+        - SQL: study/cs/db/lec3.md
+      - 人工智能引论:
+        - study/cs/ai/index.md
+    - System: 
+      - 计算机系统概论: 
+        - study/system/ics/index.md
+        - 1-Welcome Aboard: study/system/ics/1-welcome.md 
+      - 计算机组成与设计:
+        - study/system/co/index.md
+        - 流水线 CPU 设计: study/system/co/pipelining.md
+  - 关于: about/index.md
