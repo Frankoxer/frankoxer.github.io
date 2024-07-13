@@ -156,6 +156,12 @@ nav:
         - SQL: study/cs/db/lec3.md
       - 人工智能引论:
         - study/cs/ai/index.md
+      - HTML 学习:
+        - study/html/index.md
+        - HTML 简介: study/html/lec1.md
+        - 段落与基本格式: study/html/lec2.md
+        - 其他格式: study/html/lec3.md
+        - 其他元素: study/html/lec4.md
     - System: 
       - 计算机系统概论: 
         - study/system/ics/index.md
@@ -163,5 +169,8 @@ nav:
       - 计算机组成与设计:
         - study/system/co/index.md
         - 流水线 CPU 设计: study/system/co/pipelining.md
+  - 实践:
+    - practice/index.md
+    - C++ 项目管理与工程实践: practice/MyMUG.md
   - 关于:
     - about/index.md
