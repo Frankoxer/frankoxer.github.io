@@ -124,7 +124,7 @@ nav:
   - 主页: index.md
   - 学习: 
     - study/index.md
-    - CS:
+    - 校内课程:
       - 程序设计与算法基础: study/cs/fpa/final-exam-re.md
       - 数据结构基础:
         - study/cs/ds/index.md
@@ -156,19 +156,26 @@ nav:
         - SQL: study/cs/db/lec3.md
       - 人工智能引论:
         - study/cs/ai/index.md
-      - HTML 学习:
-        - study/html/index.md
-        - HTML 简介: study/html/lec1.md
-        - 段落与基本格式: study/html/lec2.md
-        - 其他格式: study/html/lec3.md
-        - 其他元素: study/html/lec4.md
-    - System: 
+      - 理论计算机科学导引:
+        - study/cs/tcs/index.md
+        - Lecture 1: study/cs/tcs/lec1.md
       - 计算机系统概论: 
         - study/system/ics/index.md
         - 1-Welcome Aboard: study/system/ics/1-welcome.md 
       - 计算机组成与设计:
         - study/system/co/index.md
         - 流水线 CPU 设计: study/system/co/pipelining.md
+    - 其他技能学习:
+      - HTML 学习:
+        - study/html/index.md
+        - HTML 简介: study/html/lec1.md
+        - 段落与基本格式: study/html/lec2.md
+        - 其他格式: study/html/lec3.md
+        - 其他元素: study/html/lec4.md
+      - CSS 学习:
+        - study/css/index.md
+        - CSS 简介: study/css/lec1.md
+        - 背景样式: study/css/lec2.md
   - 实践:
     - practice/index.md
     - C++ 项目管理与工程实践: practice/MyMUG.md
