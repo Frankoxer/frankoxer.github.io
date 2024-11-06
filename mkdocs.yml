@@ -109,13 +109,13 @@ markdown_extensions:
 extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
-  # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docs/mkdocs/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docs/mkdocs/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
-  # - mkdocs/javascripts/mathjax.js
+  # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docourse/mkdocourse/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docourse/mkdocourse/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
+  # - mkdocourse/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
 extra_css:
-  #- mkdocs/css/no-footer.css # 不使用底部的翻页
-  #- mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+  #- mkdocourse/css/no-footer.css # 不使用底部的翻页
+  #- mkdocourse/css/unordered-list-symbols.css # multiplt unordered list symbols
 
 ############################################################################################
 
@@ -125,57 +125,43 @@ nav:
   - 学习: 
     - study/index.md
     - 校内课程:
-      - 程序设计与算法基础: study/cs/fpa/final-exam-re.md
+      - 程序设计与算法基础: study/course/fpa/final-exam-re.md
       - 数据结构基础:
-        - study/cs/ds/index.md
-        - 算法分析基础: study/cs/ds/ch1.md
-        - 线性数据结构: study/cs/ds/ch2.md
-        - 树: study/cs/ds/ch3.md
-        - 图: study/cs/ds/ch4.md
-        - 排序: study/cs/ds/ch5.md
-        - 散列: study/cs/ds/ch6.md
+        - study/course/ds/index.md
+        - 算法分析基础: study/course/ds/ch1.md
+        - 线性数据结构: study/course/ds/ch2.md
+        - 树: study/course/ds/ch3.md
+        - 图: study/course/ds/ch4.md
+        - 排序: study/course/ds/ch5.md
+        - 散列: study/course/ds/ch6.md
       - 高级数据结构与算法分析:
-        - study/cs/ads/index.md
-        - AVL/Splay/摊还分析: study/cs/ads/lec1.md
-        - 红黑树/B+ 树: study/cs/ads/lec2.md
-        - 倒排索引: study/cs/ads/lec3.md
-        - 左式堆与斜堆: study/cs/ads/lec4.md
-        - 二项堆: study/cs/ads/lec5.md
-        - 回溯: study/cs/ads/lec6.md
-        - 分治法: study/cs/ads/lec7.md
-        - 动态规划: study/cs/ads/lec8.md
-        - 贪心算法: study/cs/ads/lec9.md
-        - NP: study/cs/ads/lec10.md
-        - 近似算法: study/cs/ads/lec11.md
-        - 局部搜索: study/cs/ads/lec12.md
-        - 随机算法: study/cs/ads/lec13.md
-      - 数据库系统:
-        - study/cs/db/index.md
-        - 数据库系统介绍: study/cs/db/lec1.md
-        - 关系代数和关系模型: study/cs/db/lec2.md
-        - SQL: study/cs/db/lec3.md
+        - study/course/ads/index.md
+        - AVL/Splay/摊还分析: study/course/ads/lec1.md
+        - 红黑树/B+ 树: study/course/ads/lec2.md
+        - 倒排索引: study/course/ads/lec3.md
+        - 左式堆与斜堆: study/course/ads/lec4.md
+        - 二项堆: study/course/ads/lec5.md
+        - 回溯: study/course/ads/lec6.md
+        - 分治法: study/course/ads/lec7.md
+        - 动态规划: study/course/ads/lec8.md
+        - 贪心算法: study/course/ads/lec9.md
+        - NP: study/course/ads/lec10.md
+        - 近似算法: study/course/ads/lec11.md
+        - 局部搜索: study/course/ads/lec12.md
+        - 随机算法: study/course/ads/lec13.md
       - 人工智能引论:
-        - study/cs/ai/index.md
-      - 理论计算机科学导引:
-        - study/cs/tcs/index.md
-        - Lecture 1: study/cs/tcs/lec1.md
-      - 计算机系统概论: 
-        - study/system/ics/index.md
-        - 1-Welcome Aboard: study/system/ics/1-welcome.md 
-      - 计算机组成与设计:
-        - study/system/co/index.md
-        - 流水线 CPU 设计: study/system/co/pipelining.md
+        - study/course/ai/index.md
     - 其他技能学习:
       - HTML 学习:
-        - study/html/index.md
-        - HTML 简介: study/html/lec1.md
-        - 段落与基本格式: study/html/lec2.md
-        - 其他格式: study/html/lec3.md
-        - 其他元素: study/html/lec4.md
+        - study/self/html/index.md
+        - HTML 简介: study/self/html/lec1.md
+        - 段落与基本格式: study/self/html/lec2.md
+        - 其他格式: study/self/html/lec3.md
+        - 其他元素: study/self/html/lec4.md
       - CSS 学习:
-        - study/css/index.md
-        - CSS 简介: study/css/lec1.md
-        - 背景样式: study/css/lec2.md
+        - study/self/css/index.md
+        - CSS 简介: study/self/css/lec1.md
+        - 背景样式: study/self/css/lec2.md
   - 实践:
     - practice/index.md
     - C++ 项目管理与工程实践: practice/MyMUG.md
