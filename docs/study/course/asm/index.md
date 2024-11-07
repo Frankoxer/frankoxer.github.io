@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# Assembly Language and Microcomputer Interfaces
+# Assembly Language and Microcomputer Interface
 
 ## 课程信息
 
